@@ -4,7 +4,7 @@
 <head>
 
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1,shrink-to-fit=no">
   <meta name="description" content="">
   <meta name="author" content="">
 
@@ -19,8 +19,9 @@
   <link href="https://fonts.cdnfonts.com/css/advent-pro" rel="stylesheet">
 
   <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
-  <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+  <!-- <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet"> -->
 
   <!-- Custom styles for this template -->
   <!-- <link href="css/resume.min.css" rel="stylesheet"> -->
@@ -32,7 +33,7 @@
 
   <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
     <a class="navbar-brand js-scroll-trigger" href="#page-top">
-      <span class="d-block d-lg-none">Tsiory Rakotoarimalala</span>
+      <span class="d-block d-lg-none"></span>
       <span class="d-none d-lg-block">
         <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/logo.png" alt="">
       </span>
@@ -335,40 +336,6 @@
           </ul>
         </div>
       </div>
-      <!-- <div class="row align-items-center">
-        <div class="col-sm-3 project-info">
-          <h3 class="mb-0">Books</h3>
-          <p class="project-descri">Enregistrer votre livre depuis ou en dehors de Google API Books</p>
-          <ul class="project-tech-list">
-            <li>ReactJS</li>
-            <li>Redux</li>
-            <li>API Google Books</li>
-            <li>Vercel</li>
-
-          </ul>
-          <ul class="list-inline list-social-projets-icons mb-0">
-            <li class="list-inline-item">
-              <a href="https://books-gilt.vercel.app/" target="_blank">
-                <span class="fa-stack fa-lg">
-                  <i class="fa fa-external-link fa-stack-1x fa-inverse"></i>
-                  <i class="fa-solid fa-arrow-up-right-from-square"></i>
-                </span>
-              </a>
-            </li>
-            <li class="list-inline-item">
-              <a href="https://github.com/tsioryrovantsoa/books" target="_blank">
-                <span class="fa-stack fa-lg">
-                  <i class="fa fa-github fa-stack-1x fa-inverse"></i>
-                </span>
-              </a>
-            </li>
-          </ul>
-        </div>
-        <div class="col-sm-7">
-          <img src="img/books.JPG" width="750" class="project-img">
-        </div>
-        
-      </div> -->
       <div class="row align-items-center" id="autre-projet">
         <div class="col-md-8">
           <img src="img/garage.png" width="750" class="img-fluid project-img">
@@ -404,7 +371,7 @@
         </div>
       </div>
       <div class="text-center mt-3">
-        <button id="voir-plus" type="button" class="btn btn-outline-primary voir">Voir Plus</button>
+        <button id="voir-plus" type="button" class="btn btn-outline-primary voir"><span class="bi bi-plus"></span> Voir Plus</button>
       </div>
     </div>
   </section>
@@ -414,24 +381,42 @@
       <h2 class="mb-5"><span class="titre">Competences</span></h2>
 
       <div class="subheading mb-3">Back-End</div>
+      
       <ul class="project-tech-list">
-        <li>PHP</li>
-        <li>Laravel</li>
-        <li>CodeIgniter</li>
-        <li>NodeJS</li>
-        <li>ExpressJS</li>
+        <li><i class="devicon-php-plain colored icon-dev"></i>
+        </li>
+        <li><i class="devicon-laravel-plain-wordmark colored icon-dev"></i>
+        </li>
+        <li><i class="devicon-codeigniter-plain-wordmark colored icon-dev"></i>
+        </li>
+        
+
       </ul>
       <div class="subheading mb-3">Front-End</div>
       <ul class="project-tech-list">
-        <li>Bootstrap</li>
-        <li>ReactJS</li>
+        <li><i class="devicon-html5-plain-wordmark colored icon-dev"></i>
+        </li>
+        <li><i class="devicon-css3-plain-wordmark colored icon-dev"></i>
+        </li>
+        <li><i class="devicon-javascript-plain colored icon-dev"></i>
+        </li>
+        <li><i class="devicon-jquery-plain-wordmark colored icon-dev"></i>
+
+        </li>
+        <li><i class="devicon-bootstrap-plain-wordmark colored icon-dev"></i></li>
+        <li><i class="devicon-react-original-wordmark colored icon-dev"></i>
+        </li>
+        <li><i class="devicon-redux-original colored icon-dev"></i>
+        </li>
+        <li><i class="devicon-nextjs-plain-wordmark icon-dev"></i></li>
       </ul>
 
       <div class="subheading mb-3">Base de donnee</div>
       <ul class="project-tech-list">
-        <li>MySQL</li>
-        <li>PostgreSQL</li>
-        <li>MongoDB</li>
+        <li><i class="devicon-mysql-plain-wordmark  icon-dev"></i>     </li>
+        <li><i class="devicon-postgresql-plain-wordmark colored icon-dev"></i>        </li>
+        <li><i class="devicon-mongodb-plain-wordmark colored icon-dev"></i>
+        </li>
 
       </ul>
     </div>
@@ -447,13 +432,14 @@
           </div>   
           <div class="row con-form form-group">
             <div class="col-md-12">
-              <input type="text" name="full-name" placeholder="Nom" class="form-control">
+              <input type="text" name="full-name" aria-describedby="emailHelp" placeholder="Nom" class="form-control">
+              <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
             </div>
             <div class="col-md-12">
               <input type="text" name="email" placeholder="E-mail" class="form-control">
             </div>
-            <div class="col-md-12"><textarea name="" id="" class="form-control" placeholder="Votre message"></textarea></div>
-            <div class="col-md-12 sub-but"><button class="btn btn-primary" role="button">Send</button></div>
+            <div class="col-md-12"><textarea name="" id="" class="form-control" placeholder="Votre message" rows="5"></textarea></div>
+            <div class="col-md-12 sub-but"><button class="btn btn-primary" role="button">Envoyer</button></div>
           </div>
         </div>
         <div class="col-md-4 col-sm-12 mt-5"> 
@@ -485,7 +471,9 @@
   </div>
 
   <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
   <script src="js/custom.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
