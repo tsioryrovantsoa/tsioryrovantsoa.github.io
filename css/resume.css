@@ -338,3 +338,15 @@ h3 .project-info{
   /* width: 200%; */
   font-size: 60px;
 }
+
+#skills .subheading{
+  font-family: 'SF Mono', serif;
+  color: #ffffff;
+  text-transform: none;
+  font-size: 17px;
+}
+
+#skills h3{
+  color: #CCF381;
+  margin-top: 0px;
+}
