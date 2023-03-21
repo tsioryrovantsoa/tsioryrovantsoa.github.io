@@ -335,5 +335,6 @@ h3 .project-info{
 }
 
 .icon-dev{
+  /* width: 200%; */
   font-size: 60px;
 }

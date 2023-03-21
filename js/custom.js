@@ -5,4 +5,5 @@ $(function(){
         $('#autre-projet').show("slow");
         $('#voir-plus').hide('fast');
     });
+    $('[data-toggle="tooltip"]').tooltip();
 })
