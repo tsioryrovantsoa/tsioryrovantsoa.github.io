@@ -301,6 +301,7 @@ h3 .project-info{
 
 .project-img{
   border-radius: 5px;
+  border-color: none !important;
 }
 
 .project-descri{
