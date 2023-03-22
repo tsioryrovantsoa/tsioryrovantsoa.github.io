@@ -392,6 +392,11 @@ h3 .project-info{
 }
 
 .page-footer a{
+  color: #ccd6f6;
+  text-decoration: none;
+}
+
+.page-footer a:hover{
   color: #CCF381;
   text-decoration: none;
 }
