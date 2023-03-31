@@ -11,17 +11,17 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $emailText = "";
 
     if (empty($array["name"])) {
-        $array["nameError"] = "<i class='bi bi-exclamation-triangle-fill'></i> Ce champs est obligatoire. Veuillez saisir votre nom.";
+        $array["nameError"] = "<i class='bi bi-exclamation-triangle-fill'></i> Veuillez saisir votre nom.";
         $array["isSuccess"] = false;
     } else {
-        $emailText .= "Name: {$array['name']}\n";
+        $emailText .= "Nom : {$array['name']}\n";
     }
 
     if (!isEmail($array["email"])) {
-        $array["emailError"] = "<i class='bi bi-exclamation-triangle-fill'></i> Ce champs est obligatoire. Veuillez saisir un e-mail valide.";
+        $array["emailError"] = "<i class='bi bi-exclamation-triangle-fill'></i> Veuillez saisir un e-mail valide.";
         $array["isSuccess"] = false;
     } else {
-        $emailText .= "Email: {$array['email']}\n";
+        $emailText .= "E-mail: {$array['email']}\n";
     }
 
     if (empty($array["message"])) {
@@ -32,8 +32,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     }
 
     if ($array["isSuccess"]) {
-        $headers = "From: {$array['name']} <{$array['email']}>\r\nReply-To: {$array['email']}";
-        mail($emailTo, "Un message de votre site", $emailText, $headers);
+        $headers = "From: hello@tsioryrakotoarimalala.com\r\n";
+        $headers .= "Reply-To: {$array['email']}\r\n";
+        $headers .= "Return-Path: {$array['email']}\r\n";
+        //$headers = "From: hello <hello@tsioryrakotoarimalala.com>\r\nReply-To: {$array['email']}";
+        mail($emailTo, "Hello - Message de votre site", $emailText, $headers);
     }
 
     echo json_encode($array);
