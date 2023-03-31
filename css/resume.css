@@ -8,7 +8,7 @@ body {
   padding-top: 54px;
   color: #8892b0;
   background-color: #0A0C2D  !important; 
-  font-size: 20px;
+  font-size: 18px;
 }
 
 
@@ -407,4 +407,18 @@ h3 .project-info{
 
 #interests .link-mail{
   color:#ccd6f6;
+}
+
+/* #contact-form .comments{
+  color:red !important;
+} */
+
+.alert-custom {
+  color: #000000 !important;
+    background-color: #ccf381 !important;
+    border-color: #ccf381 !important;
+}
+
+.form-input{
+  padding-bottom: 0px;
 }
