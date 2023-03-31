@@ -26,6 +26,7 @@ $('#contact-form').submit(function(e) {
             {
                 $('#contact-count').append("<div class='alert alert-success alert-dismissible alert-custom fade show' role='alert'><strong>"+json.name+" !</strong> Votre message a bien été envoyé. Merci de m'avoir contacté.<button type='button' class='close' data-dismiss='alert' aria-label='Close'><span aria-hidden='true'>&times;</span></button></div>");
                 $('#contact-form')[0].reset();
+                $('#contact-form').hide('fast');
             }
             else
             {
