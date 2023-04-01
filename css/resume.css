@@ -19,8 +19,8 @@ body {
     padding-left: 17rem; } }
 
 h1,
-h3,
-h4,
+/* h3, */
+/* h4, */
 h5,
 h6 {
   font-family: 'SF Pro Display', sans-serif;
@@ -28,20 +28,20 @@ h6 {
   /* text-transform: uppercase; */
   color: #ffffff; }
 
-  h2 {
+  /* h2 {
     font-family: 'Advent Pro', sans-serif;
     font-weight: 600;
     text-transform: uppercase;
     /* font-size: 20px; */
-    border-bottom: 2px solid #ffffff1f; 
-    line-height: 0.1em;
+    /* border-bottom: 2px solid #ffffff1f; 
+    line-height: 0.1em; */
     /* margin: 10px 0 20px; */
-    color: #ffffff; }
+    /* color: #ffffff; } */
 
-    h2 .titre{
+    h3 .titre{
       background:#1e1b43; 
       padding:0 10px; 
-    }
+    } 
 
 /* #about {
   background-color: #ffffff !important  ;
@@ -57,7 +57,7 @@ h6 {
 
 h1 {
   font-size: clamp(40px, 8vw, 80px);
-  /* line-height: 5.5rem;  */
+  line-height: 4.5rem; 
 }
 
 h2 {
@@ -346,7 +346,7 @@ h3 .project-info{
   font-size: 17px;
 }
 
-#skills h3{
+#skills h4{
   color: #CCF381;
   margin-top: 0px;
 }
@@ -361,7 +361,7 @@ h3 .project-info{
   -webkit-filter: none;
 }
 
-#interests h3{
+#interests h4{
   color:#CCF381;
 }
 

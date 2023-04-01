@@ -1,0 +1,3 @@
+#fichier pour les robots du site https://tsioryrakotoarimalala.com/
+User-Agent : *
+Allow : /*
