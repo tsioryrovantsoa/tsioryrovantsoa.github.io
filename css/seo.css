@@ -16,7 +16,7 @@ h1{
 }
 
 
-#intro h2{
+#intro p{
     /* font-family: 'SF Pro Display', sans-serif; */
     margin: 20px 0px 20px;
     max-width: 540px;
@@ -26,7 +26,7 @@ h1{
     font-weight: 200;
 }
 
-h3{
+h2{
     font-size: 2.5rem;
     font-family: 'Advent Pro', sans-serif;
     font-weight: 600;
@@ -38,7 +38,7 @@ h3{
 
 /* CONTENU */
 
-h4{
+h3{
     font-family: 'SF Pro Display', sans-serif;
     font-weight: 600;
     color: #ffffff;

@@ -38,7 +38,7 @@ h6 {
     /* margin: 10px 0 20px; */
     /* color: #ffffff; } */
 
-    h3 .titre{
+    h2 .titre{
       background:#1e1b43; 
       padding:0 10px; 
     } 
@@ -60,8 +60,8 @@ h1 {
   line-height: 4.5rem; 
 }
 
-h2 {
-  font-size: 2.5rem; }
+/* h2 {
+  font-size: 2.5rem; } */
 
 .miavaka{
   font-size: clamp(20px, 6vw, 60px);
@@ -346,7 +346,7 @@ h3 .project-info{
   font-size: 17px;
 }
 
-#skills h4{
+#skills h3{
   color: #CCF381;
   margin-top: 0px;
 }
@@ -361,7 +361,7 @@ h3 .project-info{
   -webkit-filter: none;
 }
 
-#interests h4{
+#interests h3{
   color:#CCF381;
 }
 
