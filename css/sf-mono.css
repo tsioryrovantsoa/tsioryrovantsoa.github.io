@@ -1,0 +1,89 @@
+@font-face {
+  font-family: sf mono;
+  font-style: normal;
+  font-weight: 400;
+  src: local("SF Mono"),
+    url(../font/SFMonoRegular.woff) format("woff");
+}
+@font-face {
+  font-family: sf mono;
+  font-style: italic;
+  font-weight: 400;
+  src: local("SF Mono"),
+    url(../font/SFMonoRegularItalic.woff)
+      format("woff");
+}
+@font-face {
+  font-family: sf mono;
+  font-style: normal;
+  font-weight: 300;
+  src: local("SF Mono"),
+    url(../font/SFMonoLight.woff) format("woff");
+}
+@font-face {
+  font-family: sf mono;
+  font-style: italic;
+  font-weight: 300;
+  src: local("SF Mono"),
+    url(../font/SFMonoLightItalic.woff)
+      format("woff");
+}
+@font-face {
+  font-family: sf mono;
+  font-style: normal;
+  font-weight: 500;
+  src: local("SF Mono"),
+    url(../font/SFMonoMedium.woff) format("woff");
+}
+@font-face {
+  font-family: sf mono;
+  font-style: italic;
+  font-weight: 500;
+  src: local("SF Mono"),
+    url(../font/SFMonoMediumItalic.woff)
+      format("woff");
+}
+@font-face {
+  font-family: sf mono;
+  font-style: normal;
+  font-weight: 600;
+  src: local("SF Mono"),
+    url(../font/SFMonoSemibold.woff) format("woff");
+}
+@font-face {
+  font-family: sf mono;
+  font-style: italic;
+  font-weight: 600;
+  src: local("SF Mono"),
+    url(../font/SFMonoSemiboldItalic.woff)
+      format("woff");
+}
+@font-face {
+  font-family: sf mono;
+  font-style: normal;
+  font-weight: 700;
+  src: local("SF Mono"),
+    url(../font/SFMonoBold.woff) format("woff");
+}
+@font-face {
+  font-family: sf mono;
+  font-style: italic;
+  font-weight: 700;
+  src: local("SF Mono"),
+    url(../font/SFMonoBoldItalic.woff) format("woff");
+}
+@font-face {
+  font-family: sf mono;
+  font-style: normal;
+  font-weight: 900;
+  src: local("SF Mono"),
+    url(../font/SFMonoHeavy.woff) format("woff");
+}
+@font-face {
+  font-family: sf mono;
+  font-style: italic;
+  font-weight: 900;
+  src: local("SF Mono"),
+    url(../font/SFMonoHeavyItalic.woff)
+      format("woff");
+}

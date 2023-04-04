@@ -1,0 +1,52 @@
+@font-face {
+  font-family: advent pro;
+  font-style: normal;
+  font-weight: 400;
+  src: local("Advent Pro"),
+    url(../font/AdventPro-Regular.woff)
+      format("woff");
+}
+@font-face {
+  font-family: advent pro;
+  font-style: normal;
+  font-weight: 250;
+  src: local("Advent Pro"),
+    url(../font/AdventPro-ExtraLight.woff)
+      format("woff");
+}
+@font-face {
+  font-family: advent pro;
+  font-style: normal;
+  font-weight: 250;
+  src: local("Advent Pro"),
+    url(../font/AdventPro-Thin.woff) format("woff");
+}
+@font-face {
+  font-family: advent pro;
+  font-style: normal;
+  font-weight: 300;
+  src: local("Advent Pro"),
+    url(../font/AdventPro-Light.woff) format("woff");
+}
+@font-face {
+  font-family: advent pro;
+  font-style: normal;
+  font-weight: 500;
+  src: local("Advent Pro"),
+    url(../font/AdventPro-Medium.woff) format("woff");
+}
+@font-face {
+  font-family: advent pro;
+  font-style: normal;
+  font-weight: 600;
+  src: local("Advent Pro"),
+    url(../font/AdventPro-SemiBold.woff)
+      format("woff");
+}
+@font-face {
+  font-family: advent pro;
+  font-style: normal;
+  font-weight: 700;
+  src: local("Advent Pro"),
+    url(../font/AdventPro-Bold.woff) format("woff");
+}
