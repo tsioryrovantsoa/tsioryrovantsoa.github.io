@@ -1,0 +1,46 @@
+/* -------------------------------- 
+
+Primary style
+
+-------------------------------- */
+
+.cd-words-wrapper b {
+  display: inline-block;
+  position: absolute;
+  white-space: nowrap;
+  left: 0;
+  top: 0;
+}
+.cd-words-wrapper b.is-visible {
+  position: relative;
+}
+
+/* -------------------------------- 
+  
+  xclip 
+  
+  -------------------------------- */
+.cd-headline.clip span {
+  display: inline-block;
+  /* padding-top: 0.2em;  */
+  /* padding: 0.2em 0;*/
+  padding-top: 0.2em;
+  padding-bottom: 0;
+}
+.cd-headline.clip .cd-words-wrapper {
+  overflow: hidden;
+  vertical-align: top;
+}
+.cd-headline.clip .cd-words-wrapper::after {
+  /* line */
+  content: "";
+  position: absolute;
+  width: 2px;
+  height: 100%;
+}
+.cd-headline.clip b {
+  opacity: 0;
+}
+.cd-headline.clip b.is-visible {
+  opacity: 1;
+}
