@@ -24,23 +24,19 @@ Primary style
   display: inline-block;
   /* padding-top: 0.2em;  */
   /* padding: 0.2em 0;*/
-  padding-top: 0.2em;
-  padding-bottom: 0;
+  /* line-height:0.5em; */
+
 }
 .cd-headline.clip .cd-words-wrapper {
   overflow: hidden;
   vertical-align: top;
-}
-.cd-headline.clip .cd-words-wrapper::after {
-  /* line */
-  content: "";
-  position: absolute;
-  width: 2px;
-  height: 100%;
+  /* line-height:1em; */
+    padding: 0.10em 0 0 0;
 }
 .cd-headline.clip b {
   opacity: 0;
 }
 .cd-headline.clip b.is-visible {
   opacity: 1;
+  font-weight: 600;
 }
