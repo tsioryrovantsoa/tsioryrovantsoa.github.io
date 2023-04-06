@@ -3,6 +3,16 @@
 Primary style
 
 -------------------------------- */
+*, *::after, *::before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.cd-words-wrapper {
+  display: inline-block;
+  position: relative;
+  text-align: left;
+}
 
 .cd-words-wrapper b {
   display: inline-block;
@@ -22,21 +32,25 @@ Primary style
   -------------------------------- */
 .cd-headline.clip span {
   display: inline-block;
-  /* padding-top: 0.2em;  */
-  /* padding: 0.2em 0;*/
-  /* line-height:0.5em; */
-
 }
+
 .cd-headline.clip .cd-words-wrapper {
   overflow: hidden;
   vertical-align: top;
-  /* line-height:1em; */
-    padding: 0.10em 0 0 0;
+}
+.cd-headline.clip .cd-words-wrapper::after {
+  /* line */
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  /* width: 2px; */
+
 }
 .cd-headline.clip b {
   opacity: 0;
+  font-weight: 550;
 }
 .cd-headline.clip b.is-visible {
   opacity: 1;
-  font-weight: 600;
 }
