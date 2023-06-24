@@ -11,10 +11,10 @@ $mail = new PHPMailer(true);
 try {
     $mail->SMTPDebug = SMTP::DEBUG_SERVER;
     $mail->isSMTP();
-    $mail->Host       = 'darwin.dnshostnetwork.com';
+    $mail->Host       = '';
     $mail->SMTPAuth   = true;
-    $mail->Username   = 'noreply@tsioryrakotoarimalala.com';
-    $mail->Password   = '!1Kor1510a<3$&';
+    $mail->Username   = '';
+    $mail->Password   = '';
     $mail->SMTPSecure = 'tls';
     $mail->Port       = 587;
 
